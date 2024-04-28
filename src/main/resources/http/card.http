@@ -1,0 +1,9 @@
+### Checing card
+POST localhost:8080/card/check
+Content-Type: application/json
+Accept-Language: EN
+
+{
+  "number": "234234",
+  "pinCode": 3424
+}
