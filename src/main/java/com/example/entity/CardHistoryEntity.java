@@ -1,5 +1,6 @@
 package com.example.entity;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +9,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "card_history")
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class CardHistoryEntity extends BaseEntity {
     @Column(name = "card_number")
     private String cardNumber;
