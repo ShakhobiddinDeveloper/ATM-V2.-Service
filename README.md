@@ -23,19 +23,19 @@ Banking System
    Quick Information About the Services Provided
 |№|Services|Status|
 |---|---|---|
-|  1 |Choosing Language (Uzbek, Russian, English) |:clock9:  |
-|  2 |Creating new card (if not exist) |:clock9:  |
-|  3 |Choosing card type |:clock9:  |
-|  4 |F.I.O from PNFIL |:clock9:  |
-|  5 |PIN check (set) |:clock9: |
-|  6 |Checking card (blocked or not) |:clock9: |
-|  7 |Checking expiration |:clock9:  |
-|  8 |PIN check (If 3 times wrong, blocking card) |:clock9: |
-|  9 |History |:clock9:|
-|  10 |SMS Service |:clock9:|
-|  11 |Changing PIN |:clock9:|
-|  12 |Cashing money (quantity) |:clock9:|
-|  13 |Filling out card |:clock9:|
-|  14 |Transfer money (Checking receiver card number) |:clock9:|
-|  15 |Asking for another service |:clock9:|
-|  16 |Removing card |:clock9:|
+|  1 |Choosing Language (Uzbek, Russian, English) |&#x2611; |
+|  2 |Creating new card (if not exist) |&#x2611;  |
+|  3 |Choosing card type |&#x2611;  |
+|  4 |F.I.O from PNFIL |&#x2611;  |
+|  5 |PIN check (set) |&#x2611; |
+|  6 |Checking card (blocked or not) |&#x2611; |
+|  7 |Checking expiration |&#x2611;  |
+|  8 |PIN check (If 3 times wrong, blocking card) |&#x2611; |
+|  9 |History |&#x2611;|
+|  10 |SMS Service |&#x2611;|
+|  11 |Changing PIN |&#x2611;|
+|  12 |Cashing money (quantity) |&#x2611;|
+|  13 |Filling out card |&#x2611;|
+|  14 |Transfer money (Checking receiver card number) |&#x2611;|
+|  15 |Asking for another service |&#x2611;|
+|  16 |Removing card |&#x2611;|
