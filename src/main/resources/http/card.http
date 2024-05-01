@@ -1,9 +1,74 @@
+### get by card number
+GET localhost:8080/card/1111
+
 ### Checing card
 POST localhost:8080/card/check
 Content-Type: application/json
 Accept-Language: EN
 
 {
-  "number": "234234",
-  "pinCode": 3424
+  "number": "1111",
+  "pinCode": 1111
 }
+
+### sms service
+POST localhost:8080/card/sms-service
+Content-Type:  application/json
+
+{
+  "number": "1111",
+  "phone": "+99897777777"
+}
+
+### sms service verification
+POST localhost:8080/card/verification
+Content-Type: application/json
+
+{
+  "phone": "",
+  "message": ""
+}
+
+### change pin code
+PUT localhost:8080/card/change-pin
+Content-Type: application/json
+
+{
+  "number": "1111",
+  "oldPinCode": "1111",
+  "newPinCode": 2222
+}
+
+### Cashing
+PUT localhost:8080/card/cashing
+Content-Type: application/json
+
+{
+  "number": "1111",
+  "amount": 12
+}
+
+### fill out card
+PUT localhost:8080/card/fill-out-card
+Content-Type: application/json
+
+{
+  "number": "1111",
+  "amount": 12
+}
+
+### transfer
+PUT localhost:8080/card/transfer
+Content-Type: application/json
+
+{
+  "amount": 123,
+  "thisCardNumber": "",
+  "transferCardNumber": ""
+}
+
+### history
+GET localhost:8080/card/history/1111
+
+### remove card
+DELETE localhost:8080/card/1111

@@ -1,0 +1,2 @@
+insert into client(id, created_date, updated_date, visible, middle_name, name, phone, surname)
+VALUES ('59fbafed-86f0-4c20-88cb-0c47dd1bd99w', current_timestamp, null, true, 'client1', 'client1', '+998910000000','client1');
