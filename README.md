@@ -5,7 +5,7 @@ Banking System
 <h4>Instructions on how to install and set up the project.</h4>
 
 <h5># Clone the repository</h5>
-<h6>git clone https://github.com/username/repository.git](https://github.com/ShakhobiddinDeveloper/ATM.git</h6>
+<h6>git clone [https://github.com/username/repository.git](https://github.com/ShakhobiddinDeveloper/ATM.git](https://github.com/ShakhobiddinDeveloper/ATM-V2.-Service.git)</h6>
 
 <h5># Change directory</h5>
 <h6>cd repository</h6>
