@@ -14,9 +14,9 @@ import java.io.IOException;
 @Slf4j
 @Service
 public class SmsServerService {
-    @Value("${my.eskiz.uz.email}")
+    @Value("${my.iformagic.com.username}")
     private String email;
-    @Value("${my.eskiz.uz.password}")
+    @Value("${my.iformagic.com.password}")
     private String password;
     @Value("${sms.fly.uz.url}")
     private String url;
@@ -73,6 +73,7 @@ public class SmsServerService {
             if (!response.isSuccessful()) {
                 throw new IOException();
             } else {
+                assert response.body() != null;
                 JSONObject object = new JSONObject(response.body().string());
                 JSONObject data = object.getJSONObject("data");
                 Object token = data.get("token");
