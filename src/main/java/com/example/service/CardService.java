@@ -24,16 +24,16 @@ import java.util.Optional;
 public class CardService {
     private final CardRepository cardRepository;
     private final ResourceBundleMessageSourceService resourceBundleMessageSourceService;
-    @Autowired
-    private SmsServerService smsServerService;
-    @Autowired
-    private SmsSendHistoryRepository smsSendHistoryRepository;
-    @Autowired
-    private CardHistoryRepository cardHistoryRepository;
+    private final SmsServerService smsServerService;
+    private final SmsSendHistoryRepository smsSendHistoryRepository;
+    private final CardHistoryRepository cardHistoryRepository;
 
-    public CardService(CardRepository cardRepository, ResourceBundleMessageSourceService resourceBundleMessageSourceService) {
+    public CardService(CardRepository cardRepository, ResourceBundleMessageSourceService resourceBundleMessageSourceService, SmsServerService smsServerService, SmsSendHistoryRepository smsSendHistoryRepository, CardHistoryRepository cardHistoryRepository) {
         this.cardRepository = cardRepository;
         this.resourceBundleMessageSourceService = resourceBundleMessageSourceService;
+        this.smsServerService = smsServerService;
+        this.smsSendHistoryRepository = smsSendHistoryRepository;
+        this.cardHistoryRepository = cardHistoryRepository;
     }
 
     public Boolean checking(CheckingCardDTO dto, AppLanguage language) {
